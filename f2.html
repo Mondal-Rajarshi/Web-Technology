@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+
+<h2>Registration</h2>
+
+<form action="F2.php" method="post">
+    <table> 
+  <tr> 
+      <td>
+    
+    
+        <legend><b>General Information</b></legend><br><br>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <label for="father">Father's Name:</label>
+        <input type="text" id="father" name="father"><br><br>
+        
+
+        <label for="mother">Mother's Name:</label>
+        <input type="text" id="mother" name="mother"><br><br>
+
+        <label for="blood">Blood Group:</label>
+        <select id="blood" name="blood">
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>O+</option>
+            <option>O-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+        </select><br><br>
+
+        <label for="religion">Religion:</label>
+        <select id="religion" name="religion">
+            <option>Islam</option>
+            <option>Hindu</option>
+            <option>Christian</option>
+            <option>Buddhist</option>
+        </select>
+    
+</td>
+  
+    
+    <br>
+
+    
+      <td>
+   
+        <legend><b>Contact Information</b></legend><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="phone">Phone/Mobile:</label>
+        <input type="text" id="phone" name="phone"><br><br>
+
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <label>Present Address:</label><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option>Bangladesh</option>
+        </select>
+
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option>Dhaka</option>
+            <option>Chittagong</option>
+            <option>Rajshahi</option>
+        </select>
+        <br><br>
+
+        <label for="address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30"></textarea><br><br>
+
+        <label for="postcode">Post Code:</label>
+        <input type="text" id="postcode" name="postcode">
+   
+      </td>
+  
+
+    <br>
+
+      <td>
+  
+        <legend><b>Account Information</b></legend><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="confirm">Confirm Password:</label>
+        <input type="password" id="confirm" name="confirm_password">
+ 
+      </td>
+  </tr>
+  </table>
+
+    <br>
+
+    <input type="submit" value="Register">
+   
+
+</form>
+
+</body>
+</html>
